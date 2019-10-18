@@ -4,6 +4,18 @@ body {
 
 }
 
+.button {
+  display: inline-block;
+  background-color: teal;
+  padding: 10px 16px;
+  border-radius: 12px;
+  margin: 12px 0;
+  color: white;
+}
+.button:hover {
+  color: antiquewhite;
+}
+
 
 h1{
 	font-family: 'Hepta Slab', serif;
@@ -13,6 +25,13 @@ h1{
   margin-top:30px;
   margin-left: 250px 
 }
+.rounded-box{
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 40px;
+}
 
 .sustainable {
   font-family: 'Work Sans', sans-serif;
@@ -21,6 +40,15 @@ h1{
   margin-left:250px;
 }
 
+.grid-2{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  width:80%;
+  margin: 80px auto;
+}
+.grid-2 img{
+  width: 100%;
+}
 .comb {
   position: absolute;
   top: 30%;
@@ -49,7 +77,9 @@ h1{
   transform: translate(-50%, -50%);
 }
 
-
+.icon {
+  z-index: -1;
+}
 
 .introparagraph{
   font-family: 'Work Sans', sans-serif;
@@ -63,7 +93,6 @@ h1{
   font-family: 'Hepta Slab', sans-serif;
   font-size: 45px;
   text-transform: lowercase;
-  padding-left: 150px;
 }
 
 .secondarytitletwo{
@@ -76,9 +105,6 @@ h1{
 .firstbodytext {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
-	text-align: left;
-	padding-left: 125px;
-	margin: 30px;
   max-width:400px
 }
 
@@ -86,19 +112,17 @@ h1{
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   text-align: left;
-  padding-left:570px;
   margin: 30px;
   max-width:400px;
 }
 h2{
-	margin-top: 100px;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 60px;
 }
 
 
 /* Clear floats after the columns */
-}
+
 
 header {
   padding: 30px;
@@ -107,32 +131,24 @@ header {
   color: #606475;
 
 }
-}
 
 
 /* Create two columns/boxes that floats next to each other */
 .topnav {
-  float: left;
-  width: 10%;
-  height: 300px; /* only for demonstration, should be removed */
+  width: 100%;
   padding: 20px;
   text-align: center;
-  display: inline;
-  
+  display: inline-block;
+  z-index: 1;
+    background-color: #333;
+
 }
 
 /* Style the list inside the menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  display:center;
 
-
-}
 
 /* Navbar links */
 .topnav a {
-  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -151,6 +167,6 @@ li {
 	font-family: 'Hepta Slab', serif;
   
 
-
 }
 
+footer {margin-top: 180px;}
