@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	section.first { 
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		border: 4px solid purple;
+		grid-template-rows: 2fr 1fr 3fr 1fr;
+	 }
+	
+	div { 
+		border: 1px solid red;
+		min-height: 100px;
+	 }
+
+
+.wrapper { 
+	margin-top: 50px;
+	display: grid; 
+	grid-template-columns: 50% 50%;
+	}
+
+
+	.gallery {
+		display: grid;
+		grid-template-columns:
+		repeat(auto-fill, minmax(150px,
+		1fr)); 
+		grid-gap: 20px;
+	}
+	.embedded-div {
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	</style>
+</head>
+<body class="subpage">
+	
+	<section class="gallery">
+	<img src="http://placekitten.com/200/200">
+<img src="http://placekitten.com/200/200">
+<img src="http://placekitten.com/200/200">
+<img src="http://placekitten.com/200/200">
+<img src="http://placekitten.com/200/200">
+<img src="http://placekitten.com/200/200">
+<img src="http://placekitten.com/200/200">
+<img src="http://placekitten.com/200/200">
+<img src="http://placekitten.com/200/200">
+<img src="http://placekitten.com/200/200">
+	</section>
+	<section class="first">
+		<div>
+			<p>This is in the grid</p>
+		</div>
+
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="embedded-div">
+			<div><p>Lorem</p></div>
+			<div><p>Ipsum</p></div>
+			<div><p>Dolorem</p></div>
+		</div>
+		<div></div>
+		<div></div>
+	</section>
+
+
+
+<!-- This won't work -->
+	<div class="wrapper">
+		<div class="col1">
+			
+
+		</div>
+		<div class="col2">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, expedita.</p>
+
+		</div>
+		<div class="col3">
+			
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

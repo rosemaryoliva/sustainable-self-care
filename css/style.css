@@ -1,0 +1,156 @@
+body { 
+  background-color: #CFEBE8;
+	background-size: cover;
+
+}
+
+
+h1{
+	font-family: 'Hepta Slab', serif;
+	font-size: 140px;
+  text-align: justify;
+  text-transform: lowercase;
+  margin-top:30px;
+  margin-left: 250px 
+}
+
+.sustainable {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 50px;
+  text-align: justify;
+  margin-left:250px;
+}
+
+.comb {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.mirror {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.toothbrush {
+  position: absolute;
+  top: 80%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.sparkle {
+  position: absolute;
+  top: 65%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.introparagraph{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  max-width:400px;
+  padding-left: 250px;
+}
+
+.secondarytitleone{
+  font-family: 'Hepta Slab', sans-serif;
+  font-size: 45px;
+  text-transform: lowercase;
+  padding-left: 150px;
+}
+
+.secondarytitletwo{
+  font-family: 'Hepta Slab', sans-serif;
+  font-size: 45px;
+  text-transform: lowercase;
+  padding-left: 600px;
+}
+
+.firstbodytext {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	text-align: left;
+	padding-left: 125px;
+	margin: 30px;
+  max-width:400px
+}
+
+.secondbodytext {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding-left:570px;
+  margin: 30px;
+  max-width:400px;
+}
+h2{
+	margin-top: 100px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 60px;
+}
+
+
+/* Clear floats after the columns */
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #606475;
+
+}
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+.topnav {
+  float: left;
+  width: 10%;
+  height: 300px; /* only for demonstration, should be removed */
+  padding: 20px;
+  text-align: center;
+  display: inline;
+  
+}
+
+/* Style the list inside the menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  display:center;
+
+
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #CFEBE8;
+  color: black;
+}
+
+li {
+	display: inline;
+	font-family: 'Hepta Slab', serif;
+  
+
+
+}
+
