@@ -11,11 +11,23 @@ body {
   border-radius: 12px;
   margin: 12px 0;
   color: white;
+  text-decoration: none;
 }
 .button:hover {
   color: antiquewhite;
 }
 
+.button2 {
+  background-color: teal;
+  padding: 10px 16px;
+  border-radius: 12px;
+  margin-left: 700px;
+  color: white;
+  text-decoration: none;
+}
+.button2:hover {
+  color: antiquewhite;
+}
 
 h1{
 	font-family: 'Hepta Slab', serif;
@@ -31,6 +43,7 @@ h1{
   border-radius: 12px;
   display: inline-block;
   margin: 40px;
+
 }
 
 .sustainable {
@@ -48,7 +61,45 @@ h1{
 }
 .grid-2 img{
   width: 100%;
+  border-radius: 12px;
+  -webkit-box-shadow: -26px 24px 33px 0px rgba(0,0,0,0.59);
+  -moz-box-shadow: -26px 24px 33px 0px rgba(0,0,0,0.59);
+  box-shadow: -26px 24px 33px 0px rgba(0,0,0,0.59);
 }
+
+.toothbrush-oralcare{
+  position: absolute;
+  top: 65%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  opacity: 20%;
+}
+
+.comb-haircare{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  opacity: 20%;
+}
+
+.mirror-skincare{
+  position: absolute;
+  left: 74%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+  transform:rotate(90deg);
+  
+}
+
+.sparkle-bodycare{
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  opacity: 20%;
+}
+
 .comb {
   position: absolute;
   top: 30%;
@@ -79,6 +130,7 @@ h1{
 
 .icon {
   z-index: -1;
+  color: #606475;
 }
 
 .introparagraph{
@@ -87,34 +139,43 @@ h1{
   text-align: left;
   max-width:400px;
   padding-left: 250px;
+  color: #606475;
+  line-height: 100%
 }
 
 .secondarytitleone{
   font-family: 'Hepta Slab', sans-serif;
   font-size: 45px;
   text-transform: lowercase;
+  color: #606475;
 }
 
 .secondarytitletwo{
   font-family: 'Hepta Slab', sans-serif;
   font-size: 45px;
   text-transform: lowercase;
-  padding-left: 600px;
+  padding-left: 700px;
+  color: #606475;
 }
 
 .firstbodytext {
 	font-family: 'Work Sans', sans-serif;
 	font-size: 16px;
-  max-width:400px
+  max-width:400px;
+  color: #606475;
+  line-height: 115%
 }
 
 .secondbodytext {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
   text-align: left;
-  margin: 30px;
+  margin: 20px;
   max-width:400px;
+  color: #606475;
+  line-height: 115%
 }
+
 h2{
 	font-family: 'Work Sans', sans-serif;
 	font-size: 60px;
@@ -125,7 +186,8 @@ h2{
 
 
 header {
-  padding: 30px;
+
+  padding-top: 90px;
   text-align: center;
   font-size: 35px;
   color: #606475;
@@ -151,7 +213,7 @@ header {
 .topnav a {
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
 
 }
@@ -169,4 +231,4 @@ li {
 
 }
 
-footer {margin-top: 180px;}
+footer {margin-top: 100px;}
