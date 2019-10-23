@@ -35,7 +35,7 @@ h1{
   text-align: justify;
   text-transform: lowercase;
   margin-top:30px;
-  margin-left: 250px 
+  margin-left: 300px 
 }
 .rounded-box{
   background-color: #f2f2f2;
@@ -94,7 +94,7 @@ h1{
 
 .sparkle-bodycare{
   position: absolute;
-  top: 65%;
+  top: 50%;
   left: 80%;
   transform: translate(-50%, -50%);
   opacity: 20%;
@@ -124,7 +124,7 @@ h1{
 .sparkle {
   position: absolute;
   top: 65%;
-  left: 75%;
+  left: 70%;
   transform: translate(-50%, -50%);
 }
 
@@ -187,8 +187,8 @@ h2{
 
 header {
 
-  padding-top: 90px;
-  text-align: center;
+  padding-top: 80px;
+  text-align: justify;
   font-size: 35px;
   color: #606475;
 
