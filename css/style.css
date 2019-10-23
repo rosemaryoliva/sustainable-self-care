@@ -50,7 +50,7 @@ h1{
   font-family: 'Work Sans', sans-serif;
   font-size: 50px;
   text-align: justify;
-  margin-left:250px;
+  margin-left:200px;
 }
 
 .grid-2{
@@ -85,8 +85,8 @@ h1{
 
 .mirror-skincare{
   position: absolute;
-  left: 74%;
-  bottom: 50%;
+  left: 30%;
+  top: 20%;
   transform: translate(-50%, -50%);
   transform:rotate(90deg);
   
@@ -94,7 +94,7 @@ h1{
 
 .sparkle-bodycare{
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 80%;
   transform: translate(-50%, -50%);
   opacity: 20%;
