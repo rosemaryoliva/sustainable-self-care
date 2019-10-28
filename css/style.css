@@ -1,6 +1,6 @@
 body { 
-  background-color: #CFEBE8;
-  background-size: cover;
+  background: url('../images/pinkpaper.jpg');
+  background-size: 100%;
 
 }
 
@@ -8,7 +8,7 @@ body {
 
 .button {
   display: inline-block;
-  background-color: teal;
+  background-color: pink;
   padding: 10px 16px;
   border-radius: 12px;
   margin: 12px 0;
@@ -16,20 +16,10 @@ body {
   text-decoration: none;
 }
 .button:hover {
-  color: antiquewhite;
+  color: #606475;
 }
 
-.button2 {
-  background-color: teal;
-  padding: 10px 16px;
-  border-radius: 12px;
-  margin-left: 700px;
-  color: white;
-  text-decoration: none;
-}
-.button2:hover {
-  color: antiquewhite;
-}
+
 
 /*headers*/
 
@@ -44,7 +34,7 @@ h1{
 
 /*Text displays for the products*/
 .rounded-box{
-  background-color: #f2f2f2;
+  background-color: #FFFDF3;
   padding: 40px;
   border-radius: 12px;
   display: inline-block;
@@ -73,6 +63,12 @@ h1{
   -webkit-box-shadow: -26px 24px 33px 0px rgba(0,0,0,0.59);
   -moz-box-shadow: -26px 24px 33px 0px rgba(0,0,0,0.59);
   box-shadow: -26px 24px 33px 0px rgba(0,0,0,0.59);
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+
+}
+img:hover{
+  transform: scale(1.2);
 }
 
 /*icons on informational pages*/
@@ -86,7 +82,7 @@ h1{
 
 .comb-haircare{
   position: absolute;
-  top: 65%;
+  top: 50%;
   left: 75%;
   transform: translate(-50%, -50%);
   opacity: 20%;
@@ -200,7 +196,7 @@ h2{
 
 header {
 
-  padding-top: 80px;
+  margin-top: 80px;
   text-align: justify;
   font-size: 35px;
   color: #606475;
@@ -214,7 +210,7 @@ header {
   text-align: center;
   display: inline-block;
   z-index: 1;
-  background-color: #333;
+  background-color: #606475;
 
 }
 
@@ -228,8 +224,8 @@ header {
 
 /* Links - change color on hover */
 .topnav a:hover {
-  background-color: #CFEBE8;
-  color: black;
+  background-color: pink;
+  color: #606475;
 }
 
 li {
@@ -244,7 +240,7 @@ footer {margin-top: 100px;}
 
 /*alighnment of the webapages*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   .grid-2 {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -252,26 +248,54 @@ footer {margin-top: 100px;}
     display: inline;
     font-size: 16px;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 15px;
+    margin: 15px;
+    
   }
+  
+  .sustainable{
+    text-align: left;
+    font-size: 25px;
+
+      }
+
   h1 {
     display: inline-block;
-    font-size: 60px;
+    text-align: justify;
+    font-size: 70px;
+    margin-left: 40px;
   }
+
+
   .firstbodytext{
     font-size: 14px
-  } 
+  }
+
   .secondbodytext{
     font-size: 14px
   } 
   .grid-2 img{
     grid-template-columns: 1fr;
   }
+  .icon{
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-width: 520px) {
   .grid-2 {
     grid-template-columns: 1fr;
+  }
+
+  .introparagraph {
+    display: inline;
+    font-size: 14px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 15px;
+    max-width: 400px;
+  } 
+  
+  .icon{
+    visibility: hidden;
   }
 
 }
