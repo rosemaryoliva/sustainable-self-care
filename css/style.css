@@ -74,7 +74,7 @@ img:hover{
 /*icons on informational pages*/
 .toothbrush-oralcare{
   position: absolute;
-  top: 65%;
+  top: 50%;
   left: 80%;
   transform: translate(-50%, -50%);
   opacity: 20%;
@@ -91,7 +91,7 @@ img:hover{
 .mirror-skincare{
   position: absolute;
   left: 30%;
-  top: 20%;
+  top: 15%;
   transform: translate(-50%, -50%);
   transform:rotate(90deg);
   
@@ -99,7 +99,7 @@ img:hover{
 
 .sparkle-bodycare{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 80%;
   transform: translate(-50%, -50%);
   opacity: 20%;
